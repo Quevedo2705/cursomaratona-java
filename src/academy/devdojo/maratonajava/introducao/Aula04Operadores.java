@@ -2,13 +2,29 @@ package academy.devdojo.maratonajava.introducao;
 
 public class Aula04Operadores {
     public static void main (String[] args) {
-        // + - / *
-        int numero= (6);
-        int numero2 = (10);
-       int resultado = numero + numero2;
+        // +
+
+        int numero= (5);
+        int numero2 = (5);
+        int resultado = numero + numero2;
         System.out.println(resultado);
 
+        // -
+
+        int numerosub = (16);
+        int numerosub2 = (6);
+        int resultadosub = (numerosub - numerosub2);
+        System.out.println(resultadosub);
+
+        // /
+
+        int numerodiv = (100);
+        int numerodiv2 = (10);
+        int resultadodiv = numerodiv / numerodiv2;
+        System.out.println(resultadodiv);
+
         // %
+
         int resto = 21 % 2;
         System.out.println(resto);
 
@@ -19,7 +35,7 @@ public class Aula04Operadores {
         boolean isDezIgualDez = 10 == 10;
         boolean isDezDiferenteDez = 10 != 10;
 
-        System.out.println("isdDezMaiorQueVinte "+isDezMaiorQueVinte);
+        System.out.println("isDezMaiorQueVinte "+isDezMaiorQueVinte);
         System.out.println("isDezMenorQueVinte "+isDezMenorQueVinte);
         System.out.println("isDezIgualVinte "+isDezIgualQueVinte);
         System.out.println("isDezIgualDez "+ isDezIgualDez);
