@@ -7,6 +7,7 @@ public class Aula02TiposPrimitivos {
         {
     }
         //int,double,float,char,byte,short,long,boolean
+        Integer age = 18;
         double salarioDouble = 2000;
         float salarioFloat = 2500;
         long numeroGrande = 100000;
@@ -16,8 +17,7 @@ public class Aula02TiposPrimitivos {
         boolean falso = false;
         char caractere = 10;
         String idade ="a idade e 18";
-        System.out.println(idade);
-        System.out.println();
+        System.out.println(age.floatValue());
     }
 }
 
